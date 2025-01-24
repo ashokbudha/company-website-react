@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar";
-import "./assets/css/styles.css";
+import Footer from "./components/Footer";
 
 const App = () =>{
 
     return(
         <>
         <Navbar/>
+        <Footer/>
         </>
     );
 }
