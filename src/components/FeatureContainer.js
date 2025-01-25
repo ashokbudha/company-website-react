@@ -13,7 +13,7 @@ const FeatureContainer = () =>{
 
     return(    
     <section id="features">
-        <div class="features-container">
+        <div className="features-container">
             <Feature data ={feature1}/>
             <Feature data ={feature2}/>
         </div>
