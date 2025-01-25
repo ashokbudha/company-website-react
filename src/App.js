@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Partners from "./components/Partners";
 import FeatureContainer from "./components/FeatureContainer";
+import TeamContainer from "./components/TeamContainer";
 
 const App = () =>{
 
@@ -12,6 +13,7 @@ const App = () =>{
         <HeroSection/>
         <Partners />
         <FeatureContainer/>
+        <TeamContainer/>
         <Footer/>
         </>
     );
