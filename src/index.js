@@ -6,6 +6,7 @@ import App from "./App";
 import Portfolio from "./components/Portfolio";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Services from "./components/Services";
 
 const AppLayout = ()=>{
     return(
@@ -30,6 +31,10 @@ const appRouter = createBrowserRouter([
             {
                 path:"/portfolio",
                 element:<Portfolio/>,
+            },
+            {
+                path:"/services",
+                element:<Services/>
             }
         ]
     }
