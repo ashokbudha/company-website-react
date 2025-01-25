@@ -13,7 +13,11 @@ const FeatureContainer = () =>{
 
     return(    
     <section id="features">
+<<<<<<< HEAD
         <div className="features-container">
+=======
+        <div class="features-container">
+>>>>>>> 99bc87874e39443345398f47654adbc2bf5f0bc0
             <Feature data ={feature1}/>
             <Feature data ={feature2}/>
         </div>
