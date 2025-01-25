@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 const AppLayout = ()=>{
     return(
@@ -35,6 +36,10 @@ const appRouter = createBrowserRouter([
             {
                 path:"/services",
                 element:<Services/>
+            },
+            {
+                path:"/contact",
+                element:<Contact/>
             }
         ]
     }
