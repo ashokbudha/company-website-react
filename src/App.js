@@ -14,6 +14,7 @@ const App = () =>{
         <Partners />
         <FeatureContainer/>
         <TeamContainer/>
+
         <Footer/>
         </>
     );
