@@ -4,7 +4,7 @@ const Feature = (props) =>{
    const {image, title, description} = props.data;
 
     return (
-        <div className="feature" id="feature1">
+        <div className="feature" >
                 <div className="feature-illustration">
                     <img src={image.src} alt={image.alt}/>
                 </div>
@@ -13,7 +13,7 @@ const Feature = (props) =>{
                     <p className="feature-description">{description}</p>
                     <a href="" className="feature-learn-more-btn btn">Learn More</a>
                 </div>
-            </div>
+        </div>
     ) 
 }
 
